@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.152.2">
+    <meta
+  name="description"
+  content=""
+/>
+<meta name="author" content="thienlh@thienlu.com" />
+
+    <link rel="icon" href="https://ntthuhoai.github.io/workshop.github.io/images/favicon.png" type="image/png">
+
+    <title>Proposal :: Internship Report</title>
+
+    
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/nucleus.css?1765268869" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/fontawesome-all.min.css?1765268869" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/hybrid.css?1765268869" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/featherlight.min.css?1765268869" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/perfect-scrollbar.min.css?1765268869" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/auto-complete.css?1765268869" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/atom-one-dark-reasonable.css?1765268869" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/theme.css?1765268869" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/hugo-theme.css?1765268869" rel="stylesheet">
+    
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/theme-workshop.css?1765268869" rel="stylesheet">
+    
+    
+
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/jquery-3.3.1.min.js?1765268869"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="https://ntthuhoai.github.io/workshop.github.io/2-proposal/">
+    <nav
+  id="sidebar"
+  class="showVisitedLinks"
+>
+   
+  <div id="header-wrapper">
+    <div id="header"><a id="logo" href="https://ntthuhoai.github.io/workshop.github.io/">
+  <svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 60 30"
+    width="30%"
+  >
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #fff;
+        }
+        .cls-2 {
+          fill: #f90;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <title>AWS-Logo_White-Color</title>
+    <path
+      class="cls-1"
+      d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"
+    ></path>
+  </svg>
+</a>
+</div>
+     <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://ntthuhoai.github.io/workshop.github.io/js/lunr.min.js?1765268869"></script>
+<script type="text/javascript" src="https://ntthuhoai.github.io/workshop.github.io/js/auto-complete.js?1765268869"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/ntthuhoai.github.io\/workshop.github.io\/";
+    
+</script>
+<script type="text/javascript" src="https://ntthuhoai.github.io/workshop.github.io/js/search.js?1765268869"></script>
+ 
+  </div>
+
+  <div class="highlightable">
+    <ul class="topics">
+               
+<li
+  data-nav-id="/1-worklog/"
+  title="Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/">
+     <b> 1. </b> Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/1-worklog/1.1-week1/"
+  title="Week 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.1-week1/">
+     <b> 1.1. </b> Week 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.2-week2/"
+  title="Week 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.2-week2/">
+     <b> 1.2. </b> Week 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.3-week3/"
+  title="Week 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.3-week3/">
+     <b> 1.3. </b> Week 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.4-week4/"
+  title="Week 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.4-week4/">
+     <b> 1.4. </b> Week 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.5-week5/"
+  title="Week 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.5-week5/">
+     <b> 1.5. </b> Week 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.6-week6/"
+  title="Week 6"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.6-week6/">
+     <b> 1.6. </b> Week 6 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.7-week7/"
+  title="Week 7"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.7-week7/">
+     <b> 1.7. </b> Week 7 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.8-week8/"
+  title="Week 8"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.8-week8/">
+     <b> 1.8. </b> Week 8 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.9-week9/"
+  title="Week 9"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.9-week9/">
+     <b> 1.9. </b> Week 9 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.10-week10/"
+  title="Week 10"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.10-week10/">
+     <b> 1.10. </b> Week 10 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.11-week11/"
+  title="Week 11"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.11-week11/">
+     <b> 1.11. </b> Week 11 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/1-worklog/1.12-week12/"
+  title="Week 12"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.12-week12/">
+     <b> 1.12. </b> Week 12 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/2-proposal/"
+  title="Proposal"
+  class="dd-item 
+        
+        active
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/2-proposal/">
+     <b> 2. </b> Proposal 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/3-blogstranslated/"
+  title="Translated Blogs"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/3-blogstranslated/">
+     <b> 3. </b> Translated Blogs 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/3-blogstranslated/3.1-blog1/"
+  title="Blog 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/3-blogstranslated/3.1-blog1/">
+     <b> 3.1. </b> Blog 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/3-blogstranslated/3.2-blog2/"
+  title="Blog 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/3-blogstranslated/3.2-blog2/">
+     <b> 3.2. </b> Blog 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/3-blogstranslated/3.3-blog3/"
+  title="Blog 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/3-blogstranslated/3.3-blog3/">
+     <b> 3.3. </b> Blog 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/3-blogstranslated/3.4-blog4/"
+  title="Blog 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/3-blogstranslated/3.4-blog4/">
+     <b> 3.4. </b> Blog 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/3-blogstranslated/3.5-blog5/"
+  title="Blog 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/3-blogstranslated/3.5-blog5/">
+     <b> 3.5. </b> Blog 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/3-blogstranslated/3.6-blog6/"
+  title="Blog 6"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/3-blogstranslated/3.6-blog6/">
+     <b> 3.6. </b> Blog 6 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/4-eventparticipated/"
+  title="Event Participated"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/4-eventparticipated/">
+     <b> 4. </b> Event Participated 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/4-eventparticipated/4.1-event1/"
+  title="Event 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/4-eventparticipated/4.1-event1/">
+     <b> 4.1. </b> Event 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/4-eventparticipated/4.2-event2/"
+  title="Event 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/4-eventparticipated/4.2-event2/">
+     <b> 4.2. </b> Event 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/5-workshop/"
+  title="WorkShop"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/5-workshop/">
+     <b> 5. </b> WorkShop 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/5-workshop/5.1-workshop-overview/"
+  title="Overview"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/5-workshop/5.1-workshop-overview/">
+     <b> 5.1. </b> Overview 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.2-prerequiste/"
+  title="Prerequisites"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/5-workshop/5.2-prerequiste/">
+     <b> 5.2. </b> Prerequisites 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.3-launch-ec2/"
+  title="Launch EC2 Instance"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/5-workshop/5.3-launch-ec2/">
+     <b> 5.3. </b> Launch EC2 Instance 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.4-deploy-app/"
+  title="Deploy Application"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/5-workshop/5.4-deploy-app/">
+     <b> 5.4. </b> Deploy Application 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.5-test-app/"
+  title="Test Application"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/5-workshop/5.5-test-app/">
+     <b> 5.5. </b> Test Application 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/5-workshop/5.6-cleanup/"
+  title="Clean up"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/5-workshop/5.6-cleanup/">
+     <b> 5.6. </b> Clean up 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/6-self-evaluation/"
+  title="Self-evaluation"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/6-self-evaluation/">
+     <b> 6. </b> Self-evaluation 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/7-feedback/"
+  title="Sharing and Feedback"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/7-feedback/">
+     <b> 7. </b> Sharing and Feedback 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+    </ul>
+
+     
+    <section id="shortcuts">
+      <h3>
+        More
+      </h3>
+      <ul>
+        
+        <li>
+          <a class="padding" href="https://www.facebook.com/groups/awsstudygroupfcj/"
+            ><i class='fab fa-facebook'></i> AWS Study Group</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+     
+    <section id="prefooter">
+      <hr />
+      <ul>
+        
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+            <div class="select-style">
+              <select id="select-language" onchange="location = this.value;">
+                       
+                <option
+                  id="en"
+                  value="https://ntthuhoai.github.io/workshop.github.io/2-proposal/"
+                  selected
+                >
+                  English
+                </option>
+                            
+                <option
+                  id="vi"
+                  value="https://ntthuhoai.github.io/workshop.github.io/vi/2-proposal/"
+                >
+                  Tiếng Việt
+                </option>
+                   
+              </select>
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="255px"
+                height="255px"
+                viewBox="0 0 255 255"
+                style="enable-background: new 0 0 255 255"
+                xml:space="preserve"
+              >
+                <g>
+                  <g id="arrow-drop-down">
+                    <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+        </li>
+         
+        <li>
+          <a class="padding" href="#" data-clear-history-toggle=""
+            ><i class="fas fa-history fa-fw"></i> Clear History</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+    
+    <section id="footer"><left>
+    
+    <b> Workshop</b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7920860&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Migrate" Alt="web counter" border="0" /></a> <br>
+    <b> <a href="https://cloudjourney.awsstudygroup.com/">Cloud Journey</a></b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7830807&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Total CLoud Journey" Alt="web counter" border="0" />
+
+</left>
+<left>
+    <br>
+    <br>
+    <b>Last Updated</b><br>
+    <i>
+        <span id="lastUpdated" style="color:orange;"></span>
+    </i>
+
+    <script>
+        
+        const today = new Date();
+        
+        const formattedDate = today.toLocaleDateString('en-GB');
+        
+        document.getElementById('lastUpdated').textContent = formattedDate;
+    </script>
+</left>
+<left>
+    <br>
+    <br>
+    <b> Team </b> <br>
+
+    <i> <a href="https://www.facebook.com/groups/660548818043427" style="color:orange">First Cloud Journey </a> <br>
+
+    </i>
+</left>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script></section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            <a href='https://ntthuhoai.github.io/workshop.github.io/'>Internship Report</a> > Proposal
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+  <div class="wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#a-machine-learning-deployment-for-predicting-bank-customer-attrition">A Machine Learning Deployment for Predicting Bank Customer Attrition</a>
+      <ul>
+        <li><a href="#1-executive-summary">1. Executive Summary</a></li>
+        <li><a href="#2-problem-statement">2. Problem Statement</a></li>
+        <li><a href="#whats-the-problem">What’s the Problem?</a></li>
+        <li><a href="#the-solution">The Solution</a></li>
+        <li><a href="#benefits-and-return-on-investment">Benefits and Return on Investment</a></li>
+        <li><a href="#3-solution-architecture">3. Solution Architecture</a></li>
+        <li><a href="#aws-services-used">AWS Services Used</a></li>
+        <li><a href="#component-design">Component Design</a></li>
+        <li><a href="#4-technical-implementation">4. Technical Implementation</a></li>
+        <li><a href="#5-timeline--milestones">5. Timeline &amp; Milestones</a></li>
+        <li><a href="#6-budget-estimation">6. Budget Estimation</a></li>
+        <li><a href="#7-risk-assessment">7. Risk Assessment</a></li>
+        <li><a href="#8-expected-outcomes">8. Expected Outcomes</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Proposal
+            </h1>
+          
+
+        
+
+
+
+	<h1 id="customer-churn-prediction-platform-on-aws">Customer Churn Prediction Platform on AWS</h1>
+<h2 id="a-machine-learning-deployment-for-predicting-bank-customer-attrition">A Machine Learning Deployment for Predicting Bank Customer Attrition</h2>
+<h3 id="1-executive-summary">1. Executive Summary</h3>
+<p>The Customer Churn Prediction Platform is an AWS-based solution designed to deploy and serve a Machine Learning model that predicts the likelihood of bank customers leaving (churning). The platform provides an internal web interface where analysts and bank staff can input customer information and instantly obtain churn probabilities.</p>
+<p>The solution leverages Amazon EC2 to host a Streamlit web application, Amazon S3 to store the ML model and related data, AWS Identity and Access Management (IAM) for secure access, Amazon CloudWatch for monitoring, and Amazon VPC with Security Groups to control network traffic. The system is intentionally simple, cost-effective, and well suited for workshops, student projects, and small-scale production use within a bank’s analytics team.</p>
+<h3 id="2-problem-statement">2. Problem Statement</h3>
+<h3 id="whats-the-problem">What’s the Problem?</h3>
+<p>Today, the ML churn model is usually run on local notebooks or personal machines. Business users cannot directly access the model, and results must be generated manually by data scientists. This leads to:</p>
+<ul>
+<li>No centralized, always-on environment for making predictions.</li>
+<li>Inefficient collaboration between data teams and business teams.</li>
+<li>Model files (.pkl / .joblib) being shared over email or chat, which is insecure and hard to manage.</li>
+<li>Difficulties in demonstrating the solution to stakeholders in a professional and repeatable way.</li>
+</ul>
+<h3 id="the-solution">The Solution</h3>
+<p>The workshop proposes deploying a churn prediction model on AWS using a simple yet realistic architecture:</p>
+<ul>
+<li>A <strong>Streamlit</strong> web application running on <strong>Amazon EC2</strong> provides the user interface and handles input/output.</li>
+<li>The trained ML model is stored in <strong>Amazon S3</strong> and loaded into EC2 at startup for low-latency inference.</li>
+<li><strong>AWS IAM Roles</strong> grant the EC2 instance secure access to the S3 bucket without hard-coding credentials.</li>
+<li><strong>Amazon CloudWatch</strong> collects logs and metrics from the EC2 instance for observability.</li>
+<li><strong>Amazon VPC</strong> and <strong>Security Groups</strong> restrict traffic to HTTPS/HTTP or port 8501 for Streamlit.</li>
+</ul>
+<p>This design turns an offline model into an online prediction service that can be accessed from any browser within the allowed network.</p>
+<h3 id="benefits-and-return-on-investment">Benefits and Return on Investment</h3>
+<p>The platform enables bank teams to:</p>
+<ul>
+<li>Run churn predictions in real time to prioritize retention campaigns.</li>
+<li>Reduce manual work by ~80–90% compared to running notebooks on demand.</li>
+<li>Demonstrate an end-to-end ML deployment on AWS in a way that is easy to understand and extend.</li>
+</ul>
+<p>Estimated monthly cost for a small instance (e.g., t2.micro or t3.small) and light data usage is around <strong>8–12 USD/month</strong>, which is highly affordable compared to the value provided in terms of faster decisions, better collaboration, and a reusable ML deployment blueprint.</p>
+<h3 id="3-solution-architecture">3. Solution Architecture</h3>
+<p>The solution uses a straightforward AWS architecture for serving the churn model:</p>
+<p><img src="https://ntthuhoai.github.io/workshop.github.io/images/2-Proposal/Streamlit.png" alt="Customer Churn Prediction Architecture"></p>
+<ul>
+<li><strong>User (Web Browser)</strong> → accesses the Streamlit app via the EC2 public endpoint.</li>
+<li><strong>Amazon VPC + Security Group</strong> → controls inbound traffic (e.g., HTTP/HTTPS or port 8501).</li>
+<li><strong>Amazon EC2</strong> → hosts the Streamlit application and loads the ML model into memory.</li>
+<li><strong>Amazon S3</strong> → stores the trained churn model file and optionally input/output logs.</li>
+<li><strong>AWS IAM Role</strong> → grants EC2 permission to read the model from S3.</li>
+<li><strong>Amazon CloudWatch</strong> → receives logs and metrics from EC2 for monitoring.</li>
+</ul>
+<h3 id="aws-services-used">AWS Services Used</h3>
+<ul>
+<li><strong>Amazon EC2</strong>: Hosts the Streamlit application and runs the ML inference code.</li>
+<li><strong>Amazon S3</strong>: Stores the serialized ML model (.pkl/.joblib) and optional datasets or prediction logs.</li>
+<li><strong>AWS IAM</strong>: Provides an instance role so EC2 can securely read from S3 without static keys.</li>
+<li><strong>Amazon CloudWatch</strong>: Collects logs, CPU metrics, and alarms for the EC2 instance.</li>
+<li><strong>Amazon VPC &amp; Security Groups</strong>: Restrict incoming and outgoing traffic to the application.</li>
+<li><em>(Optional)</em> <strong>Amazon API Gateway + AWS Lambda</strong>: Can be added later to expose the model as a REST API instead of (or in addition to) Streamlit.</li>
+</ul>
+<h3 id="component-design">Component Design</h3>
+<ul>
+<li>
+<p><strong>Web Frontend (Streamlit on EC2)</strong>:</p>
+<ul>
+<li>Renders HTML forms for entering customer features (age, tenure, balance, products, etc.).</li>
+<li>Sends the input data to the backend logic in the same Streamlit app for prediction.</li>
+</ul>
+</li>
+<li>
+<p><strong>Model Inference Layer</strong>:</p>
+<ul>
+<li>Loads the saved churn model from S3 (or from disk after first download).</li>
+<li>Performs data preprocessing and predicts churn probability.</li>
+<li>Returns results to the UI with human-readable labels (e.g., “High churn risk”).</li>
+</ul>
+</li>
+<li>
+<p><strong>Storage and Access Control</strong>:</p>
+<ul>
+<li>S3 bucket holds the model file and optionally CSV/Parquet logs of predictions.</li>
+<li>IAM Role controls which EC2 instance can access which S3 resources.</li>
+</ul>
+</li>
+<li>
+<p><strong>Monitoring and Operations</strong>:</p>
+<ul>
+<li>CloudWatch Logs captures application logs (errors, prediction counts).</li>
+<li>CloudWatch Metrics monitors CPU, memory (via CloudWatch agent), and network traffic.</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-technical-implementation">4. Technical Implementation</h3>
+<p><strong>Implementation Phases</strong></p>
+<p>The workshop is divided into several phases, guiding participants from a local model to a deployed AWS solution:</p>
+<ol>
+<li>
+<p><strong>Model Preparation and Packaging</strong></p>
+<ul>
+<li>Train a churn prediction model locally or on a notebook.</li>
+<li>Export the model to a <code>.pkl</code> or <code>.joblib</code> file.</li>
+<li>Upload the model file to an S3 bucket.</li>
+</ul>
+</li>
+<li>
+<p><strong>Infrastructure Setup on AWS</strong></p>
+<ul>
+<li>Launch an Amazon EC2 instance (Ubuntu / Amazon Linux).</li>
+<li>Configure the instance within a VPC and set up an appropriate Security Group.</li>
+<li>Attach an IAM Role that allows <code>s3:GetObject</code> on the model bucket.</li>
+</ul>
+</li>
+<li>
+<p><strong>Application Development and Deployment</strong></p>
+<ul>
+<li>Install Python, pip, and required libraries (e.g., <code>streamlit</code>, <code>pandas</code>, <code>scikit-learn</code>).</li>
+<li>Clone the workshop GitHub repository to EC2.</li>
+<li>Add code in the Streamlit app to download and load the model from S3 at startup.</li>
+<li>Expose the application on port 8501 (or 80/443 with a reverse proxy).</li>
+</ul>
+</li>
+<li>
+<p><strong>Testing and Hardening</strong></p>
+<ul>
+<li>Verify that predictions are correct and consistent with the local notebook.</li>
+<li>Test access from a browser using the EC2 public DNS or IP.</li>
+<li>Configure CloudWatch for logs and alerts.</li>
+</ul>
+</li>
+</ol>
+<h3 id="5-timeline--milestones">5. Timeline &amp; Milestones</h3>
+<p><strong>Project Timeline (Workshop-Oriented)</strong></p>
+<ul>
+<li>
+<p><strong>Session 1 – Introduction &amp; Architecture (Week 1)</strong></p>
+<ul>
+<li>Overview of churn prediction and business use cases.</li>
+<li>Walkthrough of the AWS architecture and services used.</li>
+</ul>
+</li>
+<li>
+<p><strong>Session 2 – Model &amp; S3 (Week 2)</strong></p>
+<ul>
+<li>Train/prepare the churn model.</li>
+<li>Upload the model to S3 and test access.</li>
+</ul>
+</li>
+<li>
+<p><strong>Session 3 – EC2 &amp; Streamlit (Week 3)</strong></p>
+<ul>
+<li>Launch EC2, configure security, install dependencies.</li>
+<li>Deploy the Streamlit app and connect it to the model on S3.</li>
+</ul>
+</li>
+<li>
+<p><strong>Session 4 – Monitoring &amp; Final Demo (Week 4)</strong></p>
+<ul>
+<li>Enable CloudWatch logging and metrics.</li>
+<li>Run a full end-to-end demo and discuss improvements (e.g., API Gateway, CI/CD).</li>
+</ul>
+</li>
+</ul>
+<h3 id="6-budget-estimation">6. Budget Estimation</h3>
+<p>The following cost estimation assumes low traffic and workshop/demo usage:</p>
+<ul>
+<li><strong>EC2 t2.micro / t3.small</strong>: ~7–10 USD/month (on-demand).</li>
+<li><strong>Amazon S3</strong>: ~0.05–0.20 USD/month (model file + small datasets).</li>
+<li><strong>Data Transfer</strong>: ~0.02 USD/month (light inbound/outbound usage).</li>
+<li><strong>CloudWatch Logs &amp; Metrics</strong>: ~0.03 USD/month (basic logging).</li>
+</ul>
+<p><strong>Estimated Total</strong>: <strong>~8–12 USD/month</strong> for a single small environment.</p>
+<p>Participants can be guided to use the <strong>AWS Pricing Calculator</strong> to recompute these values for their own scenarios.</p>
+<h3 id="7-risk-assessment">7. Risk Assessment</h3>
+<h4 id="risk-matrix">Risk Matrix</h4>
+<ul>
+<li><strong>EC2 Downtime</strong>: Medium impact, low probability (can be mitigated with proper instance type and health checks).</li>
+<li><strong>High CPU/Memory Usage</strong> during peak predictions: High impact, medium probability.</li>
+<li><strong>Misconfiguration of IAM or Security Groups</strong>: Medium impact, low probability.</li>
+</ul>
+<h4 id="mitigation-strategies">Mitigation Strategies</h4>
+<ul>
+<li>Use CloudWatch alarms to detect instance issues early.</li>
+<li>Scale up to a larger EC2 instance if CPU or memory usage becomes a bottleneck.</li>
+<li>Follow the principle of least privilege when defining IAM roles.</li>
+</ul>
+<h4 id="contingency-plans">Contingency Plans</h4>
+<ul>
+<li>Keep an AMI (snapshot) or infrastructure-as-code template to quickly recreate the environment.</li>
+<li>In case of major failure, temporarily fall back to local notebook predictions while the AWS environment is restored.</li>
+</ul>
+<h3 id="8-expected-outcomes">8. Expected Outcomes</h3>
+<h4 id="technical-improvements">Technical Improvements</h4>
+<ul>
+<li>A working, browser-accessible churn prediction application deployed on AWS.</li>
+<li>Participants gain hands-on experience with EC2, S3, IAM, CloudWatch, and basic ML deployment practices.</li>
+</ul>
+<h4 id="long-term-value">Long-term Value</h4>
+<ul>
+<li>A reusable reference architecture for future ML projects (credit scoring, fraud detection, recommendation, etc.).</li>
+<li>A foundation that can be extended with CI/CD, API Gateway + Lambda, or containerization (ECS/EKS) in more advanced workshops.</li>
+</ul>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://ntthuhoai.github.io/workshop.github.io/1-worklog/1.12-week12/" title="Week 12"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://ntthuhoai.github.io/workshop.github.io/3-blogstranslated/" title="Translated Blogs" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/clipboard.min.js?1765268869"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/perfect-scrollbar.min.js?1765268869"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/perfect-scrollbar.jquery.min.js?1765268869"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/jquery.sticky.js?1765268869"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/featherlight.min.js?1765268869"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/highlight.pack.js?1765268869"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/modernizr.custom-3.6.0.js?1765268869"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/learn.js?1765268869"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/hugo-learn.js?1765268869"></script>
+
+    <link href="https://ntthuhoai.github.io/workshop.github.io/mermaid/mermaid.css?1765268869" rel="stylesheet" />
+    <script src="https://ntthuhoai.github.io/workshop.github.io/mermaid/mermaid.js?1765268869"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function (i, s, o, g, r, a, m) {
+    i["GoogleAnalyticsObject"] = r;
+    ((i[r] =
+      i[r] ||
+      function () {
+        (i[r].q = i[r].q || []).push(arguments);
+      }),
+      (i[r].l = 1 * new Date()));
+    ((a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]));
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+  })(
+    window,
+    document,
+    "script",
+    "https://www.google-analytics.com/analytics.js",
+    "ga",
+  );
+
+  ga("create", "UA-158079754-2", "auto");
+  ga("send", "pageview");
+</script>
+
+  </body>
+</html>

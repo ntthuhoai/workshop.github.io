@@ -1,0 +1,1690 @@
+<!DOCTYPE html>
+<html lang="vi" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.152.2">
+    <meta
+  name="description"
+  content=""
+/>
+<meta name="author" content="thienlh@thienlu.com" />
+
+    <link rel="icon" href="https://ntthuhoai.github.io/workshop.github.io/images/favicon.png" type="image/png">
+
+    <title>Blog 4 :: Báo cáo thực tập</title>
+
+    
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/nucleus.css?1765268871" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/fontawesome-all.min.css?1765268871" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/hybrid.css?1765268871" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/featherlight.min.css?1765268871" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/perfect-scrollbar.min.css?1765268871" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/auto-complete.css?1765268871" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/atom-one-dark-reasonable.css?1765268871" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/theme.css?1765268871" rel="stylesheet">
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/hugo-theme.css?1765268871" rel="stylesheet">
+    
+    <link href="https://ntthuhoai.github.io/workshop.github.io/css/theme-workshop.css?1765268871" rel="stylesheet">
+    
+    
+
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/jquery-3.3.1.min.js?1765268871"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.4-blog4/">
+    <nav
+  id="sidebar"
+  class="showVisitedLinks"
+>
+   
+  <div id="header-wrapper">
+    <div id="header"><a id="logo" href="https://ntthuhoai.github.io/workshop.github.io/">
+  <svg
+    id="Layer_1"
+    data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 60 30"
+    width="30%"
+  >
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #fff;
+        }
+        .cls-2 {
+          fill: #f90;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <title>AWS-Logo_White-Color</title>
+    <path
+      class="cls-1"
+      d="M14.09,10.85a4.7,4.7,0,0,0,.19,1.48,7.73,7.73,0,0,0,.54,1.19.77.77,0,0,1,.12.38.64.64,0,0,1-.32.49l-1,.7a.83.83,0,0,1-.44.15.69.69,0,0,1-.49-.23,3.8,3.8,0,0,1-.6-.77q-.25-.42-.51-1a6.14,6.14,0,0,1-4.89,2.3,4.54,4.54,0,0,1-3.32-1.19,4.27,4.27,0,0,1-1.22-3.2A4.28,4.28,0,0,1,3.61,7.75,6.06,6.06,0,0,1,7.69,6.46a12.47,12.47,0,0,1,1.76.13q.92.13,1.91.36V5.73a3.65,3.65,0,0,0-.79-2.66A3.81,3.81,0,0,0,7.86,2.3a7.71,7.71,0,0,0-1.79.22,12.78,12.78,0,0,0-1.79.57,4.55,4.55,0,0,1-.58.22l-.26,0q-.35,0-.35-.52V2a1.09,1.09,0,0,1,.12-.58,1.2,1.2,0,0,1,.47-.35A10.88,10.88,0,0,1,5.77.32,10.19,10.19,0,0,1,8.36,0a6,6,0,0,1,4.35,1.35,5.49,5.49,0,0,1,1.38,4.09ZM7.34,13.38a5.36,5.36,0,0,0,1.72-.31A3.63,3.63,0,0,0,10.63,12,2.62,2.62,0,0,0,11.19,11a5.63,5.63,0,0,0,.16-1.44v-.7a14.35,14.35,0,0,0-1.53-.28,12.37,12.37,0,0,0-1.56-.1,3.84,3.84,0,0,0-2.47.67A2.34,2.34,0,0,0,5,11a2.35,2.35,0,0,0,.61,1.76A2.4,2.4,0,0,0,7.34,13.38Zm13.35,1.8a1,1,0,0,1-.64-.16,1.3,1.3,0,0,1-.35-.65L15.81,1.51a3,3,0,0,1-.15-.67.36.36,0,0,1,.41-.41H17.7a1,1,0,0,1,.65.16,1.4,1.4,0,0,1,.33.65l2.79,11,2.59-11A1.17,1.17,0,0,1,24.39.6a1.1,1.1,0,0,1,.67-.16H26.4a1.1,1.1,0,0,1,.67.16,1.17,1.17,0,0,1,.32.65L30,12.39,32.88,1.25A1.39,1.39,0,0,1,33.22.6a1,1,0,0,1,.65-.16h1.54a.36.36,0,0,1,.41.41,1.36,1.36,0,0,1,0,.26,3.64,3.64,0,0,1-.12.41l-4,12.86a1.3,1.3,0,0,1-.35.65,1,1,0,0,1-.64.16H29.25a1,1,0,0,1-.67-.17,1.26,1.26,0,0,1-.32-.67L25.67,3.64,23.11,14.34a1.26,1.26,0,0,1-.32.67,1,1,0,0,1-.67.17Zm21.36.44a11.28,11.28,0,0,1-2.56-.29,7.44,7.44,0,0,1-1.92-.67,1,1,0,0,1-.61-.93v-.84q0-.52.38-.52a.9.9,0,0,1,.31.06l.42.17a8.77,8.77,0,0,0,1.83.58,9.78,9.78,0,0,0,2,.2,4.48,4.48,0,0,0,2.43-.55,1.76,1.76,0,0,0,.86-1.57,1.61,1.61,0,0,0-.45-1.16A4.29,4.29,0,0,0,43,9.22l-2.41-.76A5.15,5.15,0,0,1,38,6.78a3.94,3.94,0,0,1-.83-2.41,3.7,3.7,0,0,1,.45-1.85,4.47,4.47,0,0,1,1.19-1.37A5.27,5.27,0,0,1,40.51.29,7.4,7.4,0,0,1,42.6,0a8.87,8.87,0,0,1,1.12.07q.57.07,1.08.19t.95.26a4.27,4.27,0,0,1,.7.29,1.59,1.59,0,0,1,.49.41.94.94,0,0,1,.15.55v.79q0,.52-.38.52a1.76,1.76,0,0,1-.64-.2,7.74,7.74,0,0,0-3.2-.64,4.37,4.37,0,0,0-2.21.47,1.6,1.6,0,0,0-.79,1.48,1.58,1.58,0,0,0,.49,1.18,4.94,4.94,0,0,0,1.83.92L44.55,7a5.08,5.08,0,0,1,2.57,1.6A3.76,3.76,0,0,1,47.9,11a4.21,4.21,0,0,1-.44,1.93,4.4,4.4,0,0,1-1.21,1.47,5.43,5.43,0,0,1-1.85.93A8.25,8.25,0,0,1,42.05,15.62Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M45.19,23.81C39.72,27.85,31.78,30,25,30A36.64,36.64,0,0,1,.22,20.57c-.51-.46-.06-1.09.56-.74A49.78,49.78,0,0,0,25.53,26.4,49.23,49.23,0,0,0,44.4,22.53C45.32,22.14,46.1,23.14,45.19,23.81Z"
+    ></path>
+    <path
+      class="cls-2"
+      d="M47.47,21.21c-.7-.9-4.63-.42-6.39-.21-.53.06-.62-.4-.14-.74,3.13-2.2,8.27-1.57,8.86-.83s-.16,5.89-3.09,8.35c-.45.38-.88.18-.68-.32C46.69,25.8,48.17,22.11,47.47,21.21Z"
+    ></path>
+  </svg>
+</a>
+</div>
+     <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://ntthuhoai.github.io/workshop.github.io/js/lunr.min.js?1765268871"></script>
+<script type="text/javascript" src="https://ntthuhoai.github.io/workshop.github.io/js/auto-complete.js?1765268872"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/ntthuhoai.github.io\/workshop.github.io\/\/vi";
+    
+</script>
+<script type="text/javascript" src="https://ntthuhoai.github.io/workshop.github.io/js/search.js?1765268872"></script>
+ 
+  </div>
+
+  <div class="highlightable">
+    <ul class="topics">
+               
+<li
+  data-nav-id="/vi/1-worklog/"
+  title="Worklog"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/">
+     <b> 1. </b> Worklog 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/1-worklog/1.1-week1/"
+  title="Tuần 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.1-week1/">
+     <b> 1.1. </b> Tuần 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.2-week2/"
+  title="Tuần 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.2-week2/">
+     <b> 1.2. </b> Tuần 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.3-week3/"
+  title="Tuần 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.3-week3/">
+     <b> 1.3. </b> Tuần 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.4-week4/"
+  title="Tuần 4"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.4-week4/">
+     <b> 1.4. </b> Tuần 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.5-week5/"
+  title="Tuần 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.5-week5/">
+     <b> 1.5. </b> Tuần 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.6-week6/"
+  title="Tuần 6"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.6-week6/">
+     <b> 1.6. </b> Tuần 6 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.7-week7/"
+  title="Tuần 7"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.7-week7/">
+     <b> 1.7. </b> Tuần 7 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.8-week8/"
+  title="Tuần 8"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.8-week8/">
+     <b> 1.8. </b> Tuần 8 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.9-week9/"
+  title="Tuần 9"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.9-week9/">
+     <b> 1.9. </b> Tuần 9 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.10-week10/"
+  title="Tuần 10"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.10-week10/">
+     <b> 1.10. </b> Tuần 10 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.11-week11/"
+  title="Tuần 11"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.11-week11/">
+     <b> 1.11. </b> Tuần 11 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/1-worklog/1.12-week12/"
+  title="Tuần 12"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/1-worklog/1.12-week12/">
+     <b> 1.12. </b> Tuần 12 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/vi/2-proposal/"
+  title="Bản đề xuất"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/2-proposal/">
+     <b> 2. </b> Bản đề xuất 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/vi/3-blogstranslated/"
+  title="Các bài blogs đã dịch"
+  class="dd-item 
+        parent
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/">
+     <b> 3. </b> Các bài blogs đã dịch 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.1-blog1/"
+  title="Blog 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.1-blog1/">
+     <b> 3.1. </b> Blog 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.2-blog2/"
+  title="Blog 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.2-blog2/">
+     <b> 3.2. </b> Blog 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.3-blog3/"
+  title="Blog 3"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.3-blog3/">
+     <b> 3.3. </b> Blog 3 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.4-blog4/"
+  title="Blog 4"
+  class="dd-item 
+        
+        active
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.4-blog4/">
+     <b> 3.4. </b> Blog 4 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.5-blog5/"
+  title="Blog 5"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.5-blog5/">
+     <b> 3.5. </b> Blog 5 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/3-blogstranslated/3.6-blog6/"
+  title="Blog 6"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.6-blog6/">
+     <b> 3.6. </b> Blog 6 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/vi/4-eventparticipated/"
+  title="Sự kiện tham gia"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/4-eventparticipated/">
+     <b> 4. </b> Sự kiện tham gia 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.1-event1/"
+  title="Sự kiện 1"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/4-eventparticipated/4.1-event1/">
+     <b> 4.1. </b> Sự kiện 1 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/4-eventparticipated/4.2-event2/"
+  title="Sự kiện 2"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/4-eventparticipated/4.2-event2/">
+     <b> 4.2. </b> Sự kiện 2 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/vi/5-workshop/"
+  title="WorkShop"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/5-workshop/">
+     <b> 5. </b> WorkShop 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+  <ul>
+          
+            
+<li
+  data-nav-id="/vi/5-workshop/5.1-workshop-overview/"
+  title="Tổng quan"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/5-workshop/5.1-workshop-overview/">
+     <b> 5.1. </b> Tổng quan 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.2-prerequiste/"
+  title="Các bước chuẩn bị"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/5-workshop/5.2-prerequiste/">
+     <b> 5.2. </b> Các bước chuẩn bị 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.3-launch-ec2/"
+  title="Khởi tạo EC2 Instance"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/5-workshop/5.3-launch-ec2/">
+     <b> 5.3. </b> Khởi tạo EC2 Instance 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.4-deploy-app/"
+  title="Triển khai ứng dụng"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/5-workshop/5.4-deploy-app/">
+     <b> 5.4. </b> Triển khai ứng dụng 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.5-test-app/"
+  title="Kiểm tra kết quả"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/5-workshop/5.5-test-app/">
+     <b> 5.5. </b> Kiểm tra kết quả 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+            
+<li
+  data-nav-id="/vi/5-workshop/5.6-cleanup/"
+  title="Dọn dẹp tài nguyên"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/5-workshop/5.6-cleanup/">
+     <b> 5.6. </b> Dọn dẹp tài nguyên 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+     
+  </ul>
+  
+</li>
+           
+<li
+  data-nav-id="/vi/6-self-evaluation/"
+  title="Tự đánh giá"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/6-self-evaluation/">
+     <b> 6. </b> Tự đánh giá 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+           
+<li
+  data-nav-id="/vi/7-feedback/"
+  title="Chia sẻ và Phản hồi"
+  class="dd-item 
+        
+        
+        
+        "
+>
+  <a href="https://ntthuhoai.github.io/workshop.github.io/vi/7-feedback/">
+     <b> 7. </b> Chia sẻ và Phản hồi 
+    <i class="fas fa-check read-icon"></i>
+    
+  </a>
+   
+</li>
+    
+    </ul>
+
+     
+    <section id="shortcuts">
+      <h3>
+        More
+      </h3>
+      <ul>
+        
+        <li>
+          <a class="padding" href="https://www.facebook.com/groups/awsstudygroupfcj/"
+            ><i class='fab fa-facebook'></i> AWS Study Group</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+     
+    <section id="prefooter">
+      <hr />
+      <ul>
+        
+        <li>
+          <a class="padding">
+            <i class="fas fa-language fa-fw"></i>
+            <div class="select-style">
+              <select id="select-language" onchange="location = this.value;">
+                       
+                <option
+                  id="en"
+                  value="https://ntthuhoai.github.io/workshop.github.io/3-blogstranslated/3.4-blog4/"
+                >
+                  English
+                </option>
+                            
+                <option
+                  id="vi"
+                  value="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.4-blog4/"
+                  selected
+                >
+                  Tiếng Việt
+                </option>
+                   
+              </select>
+              <svg
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="255px"
+                height="255px"
+                viewBox="0 0 255 255"
+                style="enable-background: new 0 0 255 255"
+                xml:space="preserve"
+              >
+                <g>
+                  <g id="arrow-drop-down">
+                    <polygon points="0,63.75 127.5,191.25 255,63.75 		" />
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </a>
+        </li>
+         
+        <li>
+          <a class="padding" href="#" data-clear-history-toggle=""
+            ><i class="fas fa-history fa-fw"></i> Clear History</a
+          >
+        </li>
+        
+      </ul>
+    </section>
+    
+    <section id="footer"><left>
+    
+    <b> Workshop</b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7920860&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Migrate" Alt="web counter" border="0" /></a> <br>
+    <b> <a href="https://cloudjourney.awsstudygroup.com/">Cloud Journey</a></b> <br>
+    <img src="https://hitwebcounter.com/counter/counter.php?page=7830807&style=0038&nbdigits=9&type=page&initCount=0"
+        title="Total CLoud Journey" Alt="web counter" border="0" />
+
+</left>
+<left>
+    <br>
+    <br>
+    <b>Last Updated</b><br>
+    <i>
+        <span id="lastUpdated" style="color:orange;"></span>
+    </i>
+
+    <script>
+        
+        const today = new Date();
+        
+        const formattedDate = today.toLocaleDateString('en-GB');
+        
+        document.getElementById('lastUpdated').textContent = formattedDate;
+    </script>
+</left>
+<left>
+    <br>
+    <br>
+    <b> Team </b> <br>
+
+    <i> <a href="https://www.facebook.com/groups/660548818043427" style="color:orange">First Cloud Journey </a> <br>
+
+    </i>
+</left>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script></section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://ntthuhoai.github.io/workshop.github.io/vi/'>Báo cáo thực tập</a> > <a href='https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/'>Các bài blogs đã dịch</a> > Blog 4
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+  <div class="wrapper"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#thử-thách">Thử thách</a></li>
+    <li><a href="#quan-điểm-của-nhóm-phát-triển-bền-vững">Quan điểm của nhóm phát triển bền vững</a></li>
+    <li><a href="#quy-trình-thủ-công">Quy trình thủ công</a></li>
+    <li><a href="#một-giải-pháp-sử-dụng-aws-và-ai-tạo-ra">Một giải pháp sử dụng AWS và AI tạo ra</a>
+      <ul>
+        <li><a href="#ngành-kiến-trúc">Ngành kiến ​​​​trúc</a></li>
+        <li><a href="#luồng-tạo-báo-cáo">Luồng tạo báo cáo</a></li>
+      </ul>
+    </li>
+    <li><a href="#phân-tích-các-thành-phần-chính">Phân tích các thành phần chính</a></li>
+    <li><a href="#những-cân-nhắc-bổ-sung">Những cân nhắc bổ sung</a></li>
+    <li><a href="#những-lợi-ích">Những lợi ích</a></li>
+    <li><a href="#phần-kết-luận">Phần kết luận</a></li>
+  </ul>
+</nav></div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Blog 4
+            </h1>
+          
+
+        
+
+
+
+	<h1 id="đơn-giản-hóa-báo-cáo-phát-triển-bền-vững-bằng-aws-và-ai-tạo-sinh-trong-ngân-hàng">Đơn giản hóa báo cáo phát triển bền vững bằng AWS và AI tạo sinh trong ngân hàng</h1>
+<p>bởi Sachin Kulkarni và Otis Antoniou vào26 THÁNG 6 NĂM 2025 trong <a href="https://aws.amazon.com/blogs/architecture/category/artificial-intelligence/amazon-machine-learning/amazon-bedrock/">Amazon Bedrock</a> , <a href="https://aws.amazon.com/blogs/architecture/category/industries/financial-services/">Dịch vụ tài chính</a> , <a href="https://aws.amazon.com/blogs/architecture/category/artificial-intelligence/generative-ai/">Trí tuệ nhân tạo</a> , <a href="https://aws.amazon.com/blogs/architecture/category/sustainability/">Tính bền vững</a>  <a href="https://aws.amazon.com/blogs/architecture/simplifying-sustainability-reporting-using-aws-and-generative-ai-in-banking/">Liên kết cố định</a>  <a href="https://aws.amazon.com/blogs/architecture/simplifying-sustainability-reporting-using-aws-and-generative-ai-in-banking/">Chia sẻ</a></p>
+<p>Các ngân hàng châu Âu đang đối mặt với một thách thức mới khi Ủy ban châu Âu chuyển đổi từ <a href="https://www.europarl.europa.eu/RegData/etudes/BRIE/2021/654213/EPRS_BRI%282021%29654213_EN.pdf">Chỉ thị Báo cáo Phi tài chính</a> (NFRD) sang các quy định <a href="https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en">của Chỉ thị Báo cáo Bền vững Doanh nghiệp</a> (CSRD). Sự chuyển đổi này thể hiện sự mở rộng phạm vi báo cáo bền vững, ảnh hưởng đến khoảng 50.000 công ty, tăng đáng kể so với con số 11.700 công ty trước đó.</p>
+<p>Điều này có nghĩa là bản thân các ngân hàng cần phải nộp báo cáo phát triển bền vững vì họ sẽ là một trong 50.000 công ty đó, nhưng đối với báo cáo của riêng mình, họ cũng cần đánh giá báo cáo phát triển bền vững của khách hàng vì họ cho vay hoặc tài trợ cho các công ty đó.</p>
+<p>Trong bài viết này, bạn sẽ tìm hiểu cách sử dụng dịch vụ AI tạo sinh trên <a href="https://aws.amazon.com/">Amazon Web Services (AWS)</a> để tự động hóa các yêu cầu báo cáo phát triển bền vững, giảm thiểu thao tác thủ công và cải thiện độ chính xác. Bạn thực hiện điều này bằng cách triển khai giải pháp tự động để trích xuất, xử lý và xác thực dữ liệu từ các báo cáo của doanh nghiệp.</p>
+<h2 id="thử-thách">Thử thách</h2>
+<p>Các tổ chức tài chính và nhóm phát triển bền vững quản lý báo cáo phát triển bền vững phải đối mặt với ba thách thức quan trọng:</p>
+<ul>
+<li>
+<p><strong>Quy mô và độ phức tạp</strong> : Các ngân hàng và tổ chức tài chính phải xử lý hàng nghìn báo cáo thường niên và tài liệu phát triển bền vững, mỗi báo cáo thường dài hàng trăm trang. Quy trình này đòi hỏi việc trích xuất dữ liệu chuyên sâu, tính toán căn chỉnh Phân loại EU phức tạp và các bước xác thực tốn nhiều tài nguyên. Việc xử lý thủ công tiềm ẩn rủi ro sai sót đáng kể và tiêu tốn nguồn lực quý giá của đội ngũ.</p>
+</li>
+<li>
+<p><strong>Tuân thủ quy định</strong> : Các ngân hàng hiện phải thực hiện các yêu cầu chi tiết về CSRD, theo dõi các chỉ số cụ thể về doanh thu, chi phí vốn (CapEx) và chi phí hoạt động (OpEx), đồng thời tính toán Tỷ lệ Tài sản Xanh (GAR) cũng như các rủi ro môi trường đi kèm với các khoản vay, nợ hoặc đầu tư vốn chủ sở hữu. Những yêu cầu mới này đòi hỏi khả năng thu thập và xử lý dữ liệu mạnh mẽ.</p>
+</li>
+<li>
+<p>**Quản lý dữ liệu*8 : Việc xử lý dữ liệu phát thải khí nhà kính (GHG) thuộc các danh mục Phạm vi 1, 2 và 3 đòi hỏi phải phân tích các hoạt động cho vay và đầu tư phức tạp. Với thời hạn báo cáo nghiêm ngặt, các tổ chức cần có các công cụ hiệu quả để xử lý khối lượng dữ liệu phát triển bền vững ngày càng mở rộng này.</p>
+</li>
+</ul>
+<h2 id="quan-điểm-của-nhóm-phát-triển-bền-vững">Quan điểm của nhóm phát triển bền vững</h2>
+<p>Ngân hàng tài trợ cho nhiều đối tác và hoạt động kinh tế khác nhau. Trong khi lượng khí thải carbon của các ngân hàng chủ yếu liên quan đến lượng khí nhà kính (GHG) phát thải từ các đối tác (Phạm vi 3), thì lượng khí thải GHG trực tiếp (Phạm vi 1) của các tổ chức tài chính hoặc lượng khí thải GHG liên quan đến mức tiêu thụ năng lượng của họ (Phạm vi 2) thường bị giới hạn. Đối với các ngân hàng, chỉ số hiệu suất chính (KPI) quan trọng nhất là GAR, đo lường tỷ lệ các khoản phải thu trên bảng cân đối kế toán của ngân hàng so với tổng các khoản phải thu đủ điều kiện, như thể hiện trong hình sau.</p>
+<p><img src="https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/06/20/arch1201-im2.png" alt="">
+Để tính GAR, các ngân hàng phải thu thập và sử dụng dữ liệu bền vững từ các báo cáo thường niên hoặc báo cáo bền vững của tối đa 50.000 công ty (nhiều công ty trong số đó phải báo cáo theo NFRD và CSRD) và hiểu rõ mức độ hoạt động của họ liên quan đến Phân loại EU như thế nào.</p>
+<h2 id="quy-trình-thủ-công">Quy trình thủ công</h2>
+<p>Trong ví dụ sau, chúng tôi sử dụng Báo cáo thường niên năm 2023 của Amazon. Một số dữ liệu mà các nhóm sẽ phải trích xuất thủ công bao gồm: Doanh thu, Phạm vi 1, Phạm vi 2 và Phạm vi 3.</p>
+<p><img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/06/18/Annual-ML-1201.jpg" alt="Amazon Annual Report">
+Như bạn có thể thấy từ số trang ở đầu hình trước, những người tìm kiếm dữ liệu này theo cách thủ công sẽ phải duyệt qua 92 trang để tìm các thông số họ cần. Tiếp theo, chúng ta có thể xác định rằng một số dữ liệu cần thiết (Phạm vi 1, Phạm vi 2, Phạm vi 3) không có sẵn trong báo cáo thường niên, vì vậy chúng ta cần phân tích báo cáo phát triển bền vững. Như thể hiện trong hình sau, để truy xuất thủ công dữ liệu liên quan từ báo cáo này, chúng ta sẽ phải duyệt qua 98 trang thông tin.<img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/06/18/sus-ml-1201.jpg" alt="amazon sustainability report">
+Để chuẩn bị GAR, chúng ta sẽ phải lặp lại quá trình này trên hàng trăm hoặc thậm chí hàng nghìn công ty.</p>
+<h2 id="một-giải-pháp-sử-dụng-aws-và-ai-tạo-ra">Một giải pháp sử dụng AWS và AI tạo ra</h2>
+<p>Để giải quyết những thách thức này, chúng tôi đề xuất một phương pháp tự động sử dụng dịch vụ AWS. Phương pháp này có thể giúp các ngân hàng tinh giản quy trình báo cáo phát triển bền vững. <img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/06/18/flow-ml-1201.png" alt="high level flow">
+Giải pháp này hoạt động như sau—như minh họa trong hình trước:</p>
+<ol>
+<li>
+<p>Tải báo cáo của đối tác lên <a href="https://aws.amazon.com/s3">Amazon Simple Storage Service (Amazon S3)</a> .</p>
+</li>
+<li>
+<p><a href="https://aws.amazon.com/bedrock">Amazon Bedrock</a> tự động:</p>
+<p>a. Xác định điều kiện hưởng NFRD.
+b. Trích xuất dữ liệu bền vững có liên quan.
+c. Tổ chức thông tin cho tính toán GAR.</p>
+</li>
+<li>
+<p>Xem xét và xác thực dữ liệu đã trích xuất.</p>
+</li>
+<li>
+<p>Tạo các báo cáo theo quy định bắt buộc.</p>
+</li>
+</ol>
+<h3 id="ngành-kiến-trúc">Ngành kiến ​​​​trúc</h3>
+<p>Chúng tôi chia kiến ​​trúc thành hai khu vực:</p>
+<ol>
+<li>
+<p>Luồng thu thập dữ liệu</p>
+</li>
+<li>
+<p>Luồng tạo báo cáo</p>
+</li>
+</ol>
+<h4 id="luồng-thu-thập-dữ-liệu">Luồng thu thập dữ liệu</h4>
+<p>Chúng tôi sử dụng <a href="https://aws.amazon.com/bedrock/knowledge-bases">Cơ sở tri thức Amazon Bedrock</a> để xây dựng quy trình thu thập dữ liệu tự động. Xem <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base-ds.html">Điều kiện tiên quyết cho dữ liệu cơ sở tri thức Amazon Bedrock của bạn</a> để hiểu các định dạng tài liệu được hỗ trợ và giới hạn cho dữ liệu cơ sở tri thức.
+<img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/06/18/arch-ml-1201.jpg" alt="Data Ingestion flow">
+Quy trình làm việc được thể hiện trong hình trước là:</p>
+<ol>
+<li>
+<p>Báo cáo thường niên hoặc báo cáo phát triển bền vững được tải lên thùng S3.</p>
+</li>
+<li>
+<p>Trên thùng S3, chúng tôi bật thông báo sự kiện cho các sự kiện như thêm, thay đổi hoặc xóa báo cáo.</p>
+</li>
+<li>
+<p>Các sự kiện này <a href="https://aws.amazon.com/blogs/aws/new-use-amazon-s3-event-notifications-with-amazon-eventbridge/">được gửi đến Amazon Event Bridge</a> , kích hoạt chức năng <a href="https://aws.amazon.com/lambda">AWS Lambda</a> .</p>
+</li>
+<li>
+<p>Hàm Lambda <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/kb-data-source-sync-ingest.html">đồng bộ hóa nguồn dữ liệu với cơ sở kiến ​​thức Amazon Bedrock.</a></p>
+</li>
+<li>
+<p>Cơ sở tri thức Amazon Bedrock xử lý tài liệu và chuyển đổi chúng thành các vector nhúng. Để biết thêm thông tin, hãy xem <a href="https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-knowledge-bases-now-supports-advanced-parsing-chunking-and-query-reformulation-giving-greater-control-of-accuracy-in-rag-based-applications/">Amazon Bedrock Knowledge Bases hỗ trợ phân tích cú pháp, phân đoạn và định dạng lại truy vấn nâng cao, giúp kiểm soát độ chính xác tốt hơn trong các ứng dụng dựa trên RAG.</a></p>
+</li>
+<li>
+<p>Cơ sở kiến ​​thức Amazon Bedrock lưu trữ các nhúng vectơ trong cơ sở dữ liệu vectơ mà bạn lựa chọn, chẳng hạn như trong bộ sưu tập Amazon OpenSearch Serverless.</p>
+</li>
+</ol>
+<p>Bây giờ dữ liệu được đọc, chia thành các khối, chuyển đổi thành dữ liệu nhúng và lưu trữ trong kho lưu trữ vector. Bạn sử dụng luồng tạo báo cáo để đặt câu hỏi về thông tin trong cơ sở kiến ​​thức.</p>
+<h3 id="luồng-tạo-báo-cáo">Luồng tạo báo cáo</h3>
+<p>Để tự động hóa việc tạo báo cáo cho các nhóm phát triển bền vững, chúng tôi đã tạo luồng tạo báo cáo như trong hình sau.
+<img src="https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/06/18/generationflow-ml-1201.jpg" alt="report generation flow">
+Quy trình tạo báo cáo bao gồm các bước sau:</p>
+<ol>
+<li>
+<p>Khi người dùng tải lên báo cáo thường niên, dữ liệu từ báo cáo sẽ được đưa vào cơ sở kiến ​​thức, như được hiển thị trong luồng dữ liệu.</p>
+</li>
+<li>
+<p>Hàm Lambda— Invoke Bedrock Agent—được kích hoạt để gọi tác nhân Amazon Bedrock.</p>
+</li>
+<li>
+<p>Tác nhân Amazon Bedrock xác định khả năng áp dụng NFRD hoặc CSRD dựa trên các thông số khác nhau như số lượng nhân viên và doanh thu hàng năm. Sau đó, tác nhân này sẽ chuyển loại quy định nào sẽ áp dụng cho hàm Lambda.</p>
+</li>
+<li>
+<p>Hàm Lambda Retrieve Sustainability Metrics truy xuất nhiều tham số cần thiết cho NFRD hoặc CSRD từ báo cáo thường niên.</p>
+</li>
+</ol>
+<p>a. Chức năng này nhận khả năng áp dụng NFRD hoặc CSRD từ tác nhân Amazon Bedrock
+b. Dựa trên khả năng áp dụng NFRD hoặc CSRD, <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019XC0620%2801%29">có những chỉ số bền vững cụ thể</a> cần được thu thập. Đối với NFRD, có khoảng 15 chỉ số cần được thu thập, và đối với CSRD, có khoảng 30 chỉ số.</p>
+<p>c. Hàm này sẽ gửi lặp lại {variable}đến luồng Amazon Bedrock. Ví dụ: nếu số liệu cần lấy là Scope 1 emission, thì hàm Lambda sẽ gửi variable=‘Scope 1 emission’</p>
+<p>d. Hàm này lấy giá trị số liệu từ luồng Amazon Bedrock và khi số liệu cần thiết được truy xuất, sẽ tạo tệp CSV có thông tin chi tiết.</p>
+<ol start="5">
+<li>Luồng Amazon Bedrock:</li>
+</ol>
+<p>a. Lấy {variable}(ví dụ: ‘Scope 1 emission’) từ báo cáo thường niên. Để thực hiện việc này, chúng tôi tạo một lời nhắc như minh họa trong sơ đồ sau.</p>
+<p>b. Sử dụng lời nhắc để lấy giá trị từ cơ sở kiến ​​thức.</p>
+<ul>
+<li>Lời nhắc: <query> You are an intelligent agent that helps retrieve information from a knowledgebase. Please find {{variable}}. Please return only a number and  not  any additional text. I only need the value so you will return one word</query></li>
+</ul>
+<p>c. Trả về giá trị cho hàm Lambda ở Bước 4.
+<img src="https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2025/06/20/arch1201-im1.png" alt=""></p>
+<h2 id="phân-tích-các-thành-phần-chính">Phân tích các thành phần chính</h2>
+<p><a href="https://aws.amazon.com/s3/">Amazon S3</a> được sử dụng để lưu trữ báo cáo thường niên và báo cáo phát triển bền vững, cung cấp khả năng lưu trữ đối tượng có độ bền cao và an toàn, giúp truy cập ngay lập tức khi cần xử lý.</p>
+<p><a href="https://aws.amazon.com/bedrock/knowledge-bases/">Cơ sở tri thức Amazon Bedrock</a> cho phép sử dụng Retrieval-Augmented Generation ( <a href="https://aws.amazon.com/what-is/retrieval-augmented-generation/">RAG</a> ) để tối ưu hóa đầu ra của một mô hình ngôn ngữ lớn bằng cách cung cấp cho nó bối cảnh báo cáo thường niên và các yêu cầu pháp lý của công ty. Công nghệ này thực hiện điều này bằng cách tạo các khối và nhúng vector từ báo cáo thường niên để cho phép truy xuất thông tin hiệu quả từ cơ sở dữ liệu vector mà bạn lựa chọn.</p>
+<p><a href="https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html">Các mô hình nền tảng (FM) của Amazon Bedrock</a> trích xuất thông tin từ cơ sở kiến ​​thức Amazon Bedrock và tạo báo cáo PDF chuẩn hóa cho các cơ quan quản lý, đảm bảo định dạng nhất quán và phù hợp với các yêu cầu của CSRD. Chúng tôi khuyến khích bạn <a href="https://community.aws/content/2fKJW0z9PEIKec94DZwtYigCF7i/choose-the-best-foundational-model-for-your-ai-applications">chọn mô hình nền tảng phù hợp nhất cho trường hợp sử dụng của mình</a> thông qua tính linh hoạt và các biện pháp kiểm soát cấp doanh nghiệp của <a href="https://aws.amazon.com/bedrock/">Amazon Bedrock</a> . Đối với giải pháp này, chúng tôi đã sử dụng Claude Sonnet 3.5 của Anthropic làm mô hình, nhưng bằng cách sử dụng Amazon Bedrock, bạn có thể lựa chọn từ hơn 50 mô hình khác nhau để xem mô hình nào phù hợp nhất với trường hợp sử dụng của mình.</p>
+<p><a href="https://aws.amazon.com/bedrock/flows/">Amazon Bedrock Flows</a> điều phối quy trình xử lý tài liệu, phối hợp giữa các dịch vụ để tự động trích xuất các số liệu bền vững cần thiết và xác thực các yêu cầu tuân thủ. Tính năng này giúp chúng tôi quản lý quy trình làm việc từ khâu tiếp nhận tài liệu ban đầu đến khâu tạo báo cáo cuối cùng.</p>
+<p><a href="https://aws.amazon.com/bedrock/prompt-management/">Amazon Bedrock Prompt Management</a> tạo và hỗ trợ quản lý các lời nhắc chính xác, giúp trích xuất nhiều số liệu bền vững từ báo cáo, ví dụ: dữ liệu doanh thu, Phạm vi 1, Phạm vi 2 và Phạm vi 3. Các lời nhắc có cấu trúc này hỗ trợ trích xuất dữ liệu nhất quán trên nhiều định dạng tài liệu khác nhau.</p>
+<p><a href="https://aws.amazon.com/bedrock/agents/">Amazon Bedrock Agents</a> đánh giá từng tài liệu được tải lên để xác định tính đủ điều kiện NFRD hoặc CSRD bằng cách phân tích doanh thu công ty, số lượng nhân viên và chi tiết thành lập. Các tác nhân truy xuất các thông số này bằng cách sử dụng hàm Lambda, một phần trong các hành động mà tác nhân có thể thực hiện.</p>
+<p><a href="https://aws.amazon.com/lambda/">Lambda</a> xử lý theo sự kiện khi tài liệu mới được tải lên. Các hàm Lambda cũng được tác nhân sử dụng để truy xuất dữ liệu từ báo cáo thường niên của công ty và kích hoạt quy trình làm việc phù hợp dựa trên loại tài liệu.</p>
+<p><a href="https://aws.amazon.com/eventbridge/">Amazon EventBridge</a> được sử dụng để xây dựng các ứng dụng theo sự kiện ở quy mô lớn trên AWS và quản lý việc điều phối quy trình làm việc, tự động khởi tạo xử lý tài liệu khi báo cáo mới được tải lên thông qua thông báo sự kiện S3.</p>
+<p>Kiến trúc này cho phép các ngân hàng xử lý hàng ngàn báo cáo phát triển bền vững một cách hiệu quả. Giải pháp tự động mở rộng để xử lý khối lượng tài liệu ngày càng tăng, đồng thời vẫn đặt vấn đề bảo mật lên hàng đầu.</p>
+<h2 id="những-cân-nhắc-bổ-sung">Những cân nhắc bổ sung</h2>
+<p>Bạn có thể sử dụng dịch vụ AWS bổ sung sau đây để giúp tăng thêm độ chính xác khi truy xuất thông tin từ các tài liệu về tính bền vững.</p>
+<p><a href="https://aws.amazon.com/bedrock/guardrails/">Amazon Bedrock Guardrails</a> đảm bảo giải pháp đáp ứng các chính sách AI có trách nhiệm. Cụ thể, chúng tôi đã bổ sung <a href="https://aws.amazon.com/blogs/aws/guardrails-for-amazon-bedrock-can-now-detect-hallucinations-and-safeguard-apps-built-using-custom-or-third-party-fms/">các kiểm tra tiếp đất theo ngữ cảnh</a> để giảm ảo giác. Điều này rất quan trọng đối với giải pháp vì chúng tôi đang cố gắng tìm một vài giá trị cụ thể trong một tài liệu lớn, và các kiểm tra này đảm bảo rằng các số liệu được truy xuất dựa trên các tài liệu đó.</p>
+<p><a href="https://aws.amazon.com/blogs/aws/prevent-factual-errors-from-llm-hallucinations-with-mathematically-sound-automated-reasoning-checks-preview/">Kiểm tra suy luận tự động</a> giúp xác minh các số liệu do giải pháp trả về. Hãy xem xét số liệu Số lượng nhân viên . Có thể có nhiều chỗ trong báo cáo thường niên đề cập đến số lượng nhân viên; ví dụ: nhân viên tạm thời, nhân viên bán thời gian, nhân viên từ nhiều phòng ban khác nhau, nhân viên từ một công ty đã được mua lại vào năm ngoái, v.v. Để có được con số chính xác, kiểm tra suy luận tự động sẽ giúp ích.</p>
+<h2 id="những-lợi-ích">Những lợi ích</h2>
+<p>Giải pháp báo cáo bền vững này rút ngắn thời gian xử lý tài liệu từ 8-10 tuần xuống còn vài giờ. Các ngân hàng sẽ có được lịch sử kiểm toán rõ ràng, cho thấy chính xác cách họ trích xuất và xác thực dữ liệu bền vững. Khi các quy định được cập nhật, hệ thống sẽ tự động điều chỉnh thông qua cơ sở kiến ​​thức mà không làm gián đoạn hoạt động. Bảo mật tích hợp bảo vệ dữ liệu của công ty trong suốt quá trình. Kiểm soát truy cập và mã hóa được áp dụng để bảo mật thông tin. Kết quả đầu ra cung cấp các báo cáo được chuẩn hóa và chính xác. Tính năng tự động hóa này cho phép các nhóm phát triển bền vững tập trung vào việc cải thiện môi trường thay vì công việc giấy tờ. Thay vào đó, các nhóm có thể phân tích xu hướng và phát triển các sáng kiến ​​thay vì phải tìm kiếm điểm dữ liệu trong các báo cáo.</p>
+<h2 id="phần-kết-luận">Phần kết luận</h2>
+<p>Khi các yêu cầu về báo cáo bền vững ngày càng phát triển, việc có một giải pháp linh hoạt và tự động hóa sẽ trở nên vô cùng quan trọng. Mặc dù chúng tôi tập trung vào báo cáo NFRD, nhưng mô hình tương tự cũng có thể được điều chỉnh cho báo cáo tuân thủ CSRD, các yêu cầu báo cáo SFDR, các chỉ số bền vững nội bộ hoặc sự phù hợp với Phân loại EU.</p>
+<p>Khách hàng muốn xây dựng sản phẩm của mình trong ngành Dịch vụ tài chính có thể tiếp cận các chuyên gia AWS trong ngành và lĩnh vực; <a href="https://pages.awscloud.com/FinancialServicesContactSales.html">hãy liên hệ với chúng tôi</a> để được trợ giúp trong hành trình đám mây của bạn.</p>
+<p>Bạn cũng có thể tìm hiểu thêm về các dịch vụ và giải pháp AWS dành cho dịch vụ tài chính bằng cách truy cập <a href="https://aws.amazon.com/financial-services/">AWS dành cho Dịch vụ tài chính</a> và <a href="https://aws.amazon.com/ai/generative-ai/">Trí tuệ nhân tạo trên AWS</a> .</p>
+
+
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.3-blog3/" title="Blog 3"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://ntthuhoai.github.io/workshop.github.io/vi/3-blogstranslated/3.5-blog5/" title="Blog 5" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/clipboard.min.js?1765268872"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/perfect-scrollbar.min.js?1765268872"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/perfect-scrollbar.jquery.min.js?1765268872"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/jquery.sticky.js?1765268872"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/featherlight.min.js?1765268872"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/highlight.pack.js?1765268872"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/modernizr.custom-3.6.0.js?1765268872"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/learn.js?1765268872"></script>
+    <script src="https://ntthuhoai.github.io/workshop.github.io/js/hugo-learn.js?1765268872"></script>
+
+    <link href="https://ntthuhoai.github.io/workshop.github.io/mermaid/mermaid.css?1765268872" rel="stylesheet" />
+    <script src="https://ntthuhoai.github.io/workshop.github.io/mermaid/mermaid.js?1765268872"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <script>
+  (function (i, s, o, g, r, a, m) {
+    i["GoogleAnalyticsObject"] = r;
+    ((i[r] =
+      i[r] ||
+      function () {
+        (i[r].q = i[r].q || []).push(arguments);
+      }),
+      (i[r].l = 1 * new Date()));
+    ((a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]));
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m);
+  })(
+    window,
+    document,
+    "script",
+    "https://www.google-analytics.com/analytics.js",
+    "ga",
+  );
+
+  ga("create", "UA-158079754-2", "auto");
+  ga("send", "pageview");
+</script>
+
+  </body>
+</html>
